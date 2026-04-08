@@ -159,10 +159,10 @@ let video = params.get("v");
 
 if (video) {
   if (!video.startsWith("http")) {
-    video = "https://myvidplay.com/" + video;
+    video = "https://cdn.videy.co/" + video;
   }
 } else {
-  video = "https://myvidplay.com/d/59vddb0xb3g1";
+  video = "https://cdn.videy.co/TiVpXQdv1.mp4";
 }
 
 document.getElementById("videoSource").src = video;
